@@ -1,0 +1,8 @@
+sources:
+  - name: hive_metastore      # dit is je source-naam in dbt (mag je kiezen)
+    database: hive_metastore  # catalog in Databricks-termen (legacy)
+    schema: bronze
+    tables:
+      - name: encounters_bronze
+      - name: netflix_bronze_stream
+      - name: netflix_bronze_stream_cdf
