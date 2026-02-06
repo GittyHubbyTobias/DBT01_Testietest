@@ -1,7 +1,0 @@
-
-
-
-sources:
-  - name: source_name
-    tables:
-      - name: table_name
