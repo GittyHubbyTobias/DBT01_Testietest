@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: airbnb_cleaned
+
+    latest_version: 1
+
+    versions:
+      - v: 1
+      - v: 2

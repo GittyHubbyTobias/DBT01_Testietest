@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: products
+    columns:
+      - name: price
+        tests:
+          - positive_values

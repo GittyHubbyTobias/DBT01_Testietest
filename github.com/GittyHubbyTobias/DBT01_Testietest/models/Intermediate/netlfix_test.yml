@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: netflix_titles_cleansed
+
+    columns:
+      - name: title_id
+        data_type: bigint
+        tests:
+          - unique
+          - not_null
